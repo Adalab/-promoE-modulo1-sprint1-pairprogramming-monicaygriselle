@@ -20,6 +20,7 @@ CREATE TABLE `Clientes`(
 `nombre` VARCHAR(45) NOT NULL,
 `numero_telefono` INT(9) NOT NULL,
 `email` VARCHAR(45) NOT NULL,
+`direccion` VARCHAR(45) NOT NULL,
 `ciudad` VARCHAR(45) DEFAULT NULL,
 `provincia` VARCHAR(45) NOT NULL,
 `pais` VARCHAR(45) NOT NULL,
